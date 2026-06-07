@@ -9,7 +9,11 @@ export default defineConfig({
       '/api': {
         target: 'http://localhost:3001',
         changeOrigin: true,
-      }
+      },
+      // '/pyapi': {
+      //   target: 'http://127.0.0.1:8000',
+      //   changeOrigin: true,
+      // }
     }
   }
 })

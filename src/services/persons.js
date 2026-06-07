@@ -1,4 +1,5 @@
 const urlBase = '/api/persons'
+// const urlBasePython = '/pyapi/persons'
 
 const post = (data) => ({
 	method: 'POST',
